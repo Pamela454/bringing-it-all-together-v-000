@@ -86,7 +86,7 @@ class Dog
     id: row[0]
     name: row[1]
     breed: row[2]
-    Dog.new(id, name, breed)
+    Dog.new(id:, name:, breed:)
     #return array represebting a dog's data
     #puts data into attributes of dog
     #constructor
