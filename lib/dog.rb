@@ -92,4 +92,7 @@ class Dog
     #constructor
   end
 
+  def self.new_from_database
+  end
+
 end
