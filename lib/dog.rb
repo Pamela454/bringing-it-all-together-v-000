@@ -92,4 +92,7 @@ class Dog
     #constructor
   end
 
+  def update
+  end
+
 end
