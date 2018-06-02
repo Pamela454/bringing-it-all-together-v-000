@@ -86,6 +86,7 @@ class Dog
 
     #return array represebting a dog's data
     #puts data into attributes of dog
+    #constructor
   end
 
 end
