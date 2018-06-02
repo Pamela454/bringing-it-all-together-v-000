@@ -83,6 +83,8 @@ class Dog
   end
 
   def self.new_from_database
+
+    #return array represebting a dog's data
   end
 
 end
