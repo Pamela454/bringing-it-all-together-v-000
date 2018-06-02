@@ -41,6 +41,7 @@ class Dog
   def self.create(attr)
     id = attr[0]
     name = attr[1]
+    breed = attr[2]
   end
 
 end
