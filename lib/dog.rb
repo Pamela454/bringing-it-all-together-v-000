@@ -8,14 +8,14 @@ class Dog
   end
 
   def self.create_table
-    sql =  <<-SQL 
+    sql =  <<-SQL
       CREATE TABLE IF NOT EXISTS environment (
-        id INTEGER PRIMARY KEY, 
-        name TEXT, 
-        album TEXT
+        id INTEGER PRIMARY KEY,
+        name TEXT,
+        breed TEXT
         )
         SQL
-    DB[:conn].execute(sql) 
+    DB[:conn].execute(sql)
   end
 
   def self.drop_table
