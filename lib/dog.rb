@@ -92,8 +92,8 @@ class Dog
     #constructor
   end
 
-  def update
-    
+  def update(row)
+
   end
 
 end
