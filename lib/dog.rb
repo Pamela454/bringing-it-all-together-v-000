@@ -39,7 +39,8 @@ class Dog
   end
 
   def self.create(attr)
-
+    id = attr[0]
+    
   end
 
 end
