@@ -93,7 +93,7 @@ class Dog
   end
 
   def update
-    sql = "UPDATE dogs SET name = ?, SET name = ?, breed = ?"
+    sql = "UPDATE dogs SET name = ?, breed = ?, breed = ?"
     DB[:conn].execute(sql, self.id, self.name, self.breed)
   end
 
