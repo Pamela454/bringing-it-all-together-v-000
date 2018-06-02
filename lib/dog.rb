@@ -39,9 +39,9 @@ class Dog
   end
 
   def self.create(attr)
-    id = attr[0]
-    name = attr[1]
-    breed = attr[2]
+    :id = attr[0]
+    :name = attr[1]
+    :breed = attr[2]
 
     Dog.new(id, name, breed)
   end
