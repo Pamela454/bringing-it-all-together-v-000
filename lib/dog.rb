@@ -66,7 +66,7 @@ class Dog
     else
       dog = self.create(name: name, breed: album)
     end
-    song
+    dog
   end
 
   def self.find_by_name(name)
