@@ -42,6 +42,8 @@ class Dog
     id = attr[0]
     name = attr[1]
     breed = attr[2]
+
+    Dog.new(id, name, breed)
   end
 
 end
