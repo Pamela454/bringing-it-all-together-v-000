@@ -93,6 +93,7 @@ class Dog
   end
 
   def self.new_from_database
+    
   end
 
 end
